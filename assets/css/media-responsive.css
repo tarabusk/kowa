@@ -1,0 +1,209 @@
+@media (min-width: 360px) {
+    
+    
+} /** + 360px **/
+
+@media (min-width: 600px) {
+    body { position: relative; }
+    body.leftMenuOpened { overflow: scroll; }
+    #leftMenuWrapper { width: 360px; }
+    
+} /** + 520px **/
+
+@media (min-width: 767px) {
+    
+    
+    /*** header ***/
+    .navbar-right, .navbar-search, .menu-toggle { display: block; }
+    .navbar-header { padding: 0; }
+    .navbar-logo { width: 230px; height: 70px;}
+    .menu-toggle { right: auto; left: 250px; }
+    .navbar-search { left: 295px; right: auto;  top: 0; }
+    
+    
+    
+    
+    /*** home pays slide ***/
+    .paysHomeSelector { padding-bottom: 60px; }
+    .seeMorePays { display: none; }
+    .bulletsWrapper { display: block; }
+    .paysHomeSlidesWrapper { width: 300000px; height: auto; }
+    .paysHomeSlide { margin-right: 50px; }
+    .paysHomeItem { width: 20%; text-align: center; }
+    .paysHomeItem .paysHomeThumbnail { float: none; width: auto; }
+    .paysHomeItem a p.title { top: -25px; font-size: 12px; }
+    .paysHomeRow:before, .paysHomeRow:after { display: block; }
+    .paysHomeRow:nth-child(even):before, .paysHomeRow:nth-child(even) .paysHomeItem:before { display: none;}
+    .paysHomeItem:after, .paysHomeRow:after { top: auto; bottom: -5px; left: auto; right: -5px; }
+
+    .paysHomeRow:before  { right: auto; left: -5px; }
+    .paysHomeRow:after { right: auto; left: -5px; }
+    .paysHomeSlidesWrapper:before, .paysHomeSlidesWrapper:after { display: none; }
+    
+    .paysHomeItem a, .paysHomeItem:last-child a { border: 0; }
+    
+    /*** Bandeau promo ***/
+    .bandeauPromo { text-align: center; }
+    .promoIconsList li {  width: 16.66666667%; padding: 0 10px; border-top: 0; }
+    .promoIconsList li a .thumbnailContainer { float: none; width: auto; }
+    .promoIconsList li a .title { margin-left: 0; padding-top: 0; font-size: 12px; line-height: 15px; }
+    .promoIconsList li a .text { margin-left: 0; display: none; }
+    
+     /*** pays ***/
+    .col-sm-6.paysContentText { width: 100%; }
+    .paysThumbnail { display: block; } 
+    .paysSelectorLabelInner:before { margin-bottom: 5px; position: absolute; width: 100%; margin: 0; top: 20px; left: 0; z-index: 0; }
+    .paysSelectorLabelWrapper { text-align: right; }
+    .paysSelectorLabelWrapper label { background: #fff; padding: 12px 0 5px 20px; display: inline-block; position: relative; z-index: 1; }
+    
+    
+    
+    
+    
+    #bigOnly { display: block; }
+    #smallOnly { display: none; }
+     
+    
+} /** + 767px **/
+
+@media (min-width: 880px) {
+    /*** header ***/
+    .menu-toggle { left: -60px; }
+    .navbar-search { right: -50px; left: auto; }
+    
+    
+    /*** home ***/
+     .paysHomePrevSlide, .paysHomeNextSlide { display: block; }
+    
+}
+
+
+@media (min-width: 992px) {
+    
+    /*** header ***/
+    .menu-toggle { left: 250px; }
+    .navbar-search { left: 295px; right: auto; }
+    .navbar-top-right { display: block; }
+    
+    /*** home ***/
+    .homeArticles { border-right: 1px solid #F3F3F3; padding-right: 30px; }
+    .homeBoutique { padding-left: 30px; }
+    .homeVideos { padding-right: 30px; }
+    .homeForum { padding-left: 30px; }
+    .paysHomePrevSlide { left: -20px;  }
+    .paysHomeNextSlide { right: -20px; }
+    
+    /*** structure ***/
+    .guideTopRow .col-md-8 { margin-bottom: 0px; }
+    .guideTopRow .col-md-4 { padding-left: 30px; }
+    
+    #sidebar .toc_widget { display: block; }
+    .post #toc_container, .page #toc_container { display: none; }
+    
+    .footer-light .logo-wrapper a { margin-left: 0; margin-right: 0; }
+    
+    .guideTopRow .col-md-4 { display: block; width: 386px; } 
+    .guideTopRow .col-md-8 { width: 584px; } 
+    
+    
+    
+    
+    
+} /** + 992px **/
+
+
+@media (min-width: 1080px) {
+    
+    /*** header ***/
+    .menu-toggle { left: -70px; }
+    .navbar-search { right: -70px; left: auto; }
+    /*** home ***/
+    .paysHomePrevSlide { left: -70px; }
+    .paysHomeNextSlide { right: -70px; }
+    
+    .messageShortcode { padding: 30px; }
+    .messageShortcode .msgTitle, 
+    .messageShortcode .msgContent { margin-left: 100px; }
+    
+    .post-footer .author-box { max-width: 100%; }
+    
+    /*** Bandeau promo ***/
+    .promoIconsList li a .title { font-size: 14px; line-height: 17px; }
+    
+    /*** pays ***/
+    .paysPromo { display: block; }
+    .col-sm-6.paysContentText { width: 50%; }
+    
+}
+
+
+@media (min-width: 1200px) {
+    
+    /*** header ***/
+    .navbar-top { margin-bottom: 45px; }
+    .menu-toggle { left: 250px; }
+    .navbar-search { left: 295px; right: auto; }
+    
+    /*** home ***/
+    .paysHomePrevSlide { left: -20px;  }
+    .paysHomeNextSlide { right: -20px; }
+    
+    .paysHomeItem img { width: 180px; }
+    .promoIconsList li a img { width: 137px; }
+    .paysHomeItem a p.title { font-size: 14px; }
+    
+    
+    /*** footer ***/
+    .footer-light .posts-box-sidebar .col { min-height: 125px; }
+    
+    .guideTopRow .col-md-8 { width: 66.66666667%; }
+    
+    .guideTopRow .featured-image .fimg-inner { min-height: 480px; }
+    
+    
+} /** + 1200px **/
+
+@media (min-width: 1290px) {
+    
+    /*** header ***/
+    .menu-toggle { left: -70px; }
+    .navbar-search { right: -70px; left: auto; }
+    
+    /*** home ***/
+    .paysHomePrevSlide { left: -70px; }
+    .paysHomeNextSlide { right: -70px; }
+    
+    
+} /** + 1200px **/
+
+
+@media (min-width: 1520px) {
+    
+    
+    
+    
+    .container { width: 1400px; }
+    .has-sidebar #main { width: 1008px; }
+    .paysTopRow .col-sm-8, .paysFilterRow .col-sm-8, .guideTopRow .col-md-8 { width: 1014px; }
+    .paysTopRow .col-sm-4, .paysFilterRow .col-sm-4, .guideTopRow .col-md-4 { width: 386px; } 
+    
+    /*** footer ***/
+    .footer-light .posts-box-sidebar .col { min-height: 153px; }
+    .footer-light .f-col:first-child .footer-widget:first-child { min-height: 271px; }
+    
+    /*** home ***/
+    .paysHomeItem img { width: 220px; }
+    .promoIconsList li a img { width: 167px; }
+    
+    /*** pays ***/
+    .pays-content { max-width: 380px; }
+    
+    /*** forum ***/
+    body li.bbp-forum-info, body li.bbp-topic-title { width: 55%; }
+    body li.bbp-forum-topic-count, body li.bbp-forum-reply-count,
+    body li.bbp-topic-voice-count, body li.bbp-topic-reply-count { display: block; }
+    
+    
+} /** + 1200px **/
+
+
